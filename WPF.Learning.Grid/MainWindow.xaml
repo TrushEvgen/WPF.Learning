@@ -6,7 +6,7 @@
         xmlns:local="clr-namespace:WPF.Learning.Grid"
         mc:Ignorable="d"
         Title="MainWindow" Height="350" Width="525">
-    <Grid>
+    <Grid ShowGridLines="True">
         
     </Grid>
 </Window>
