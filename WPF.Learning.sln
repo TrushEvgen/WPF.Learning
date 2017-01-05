@@ -1,9 +1,11 @@
 ﻿
 Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 14
-VisualStudioVersion = 14.0.25123.0
+VisualStudioVersion = 14.0.25420.1
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Learning.Grid", "WPF.Learning.Grid\WPF.Learning.Grid.csproj", "{83EF167E-77A7-4132-9CD6-5D62FD9A472A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WPF.Learning.Grid_SharedSizeGroups", "WPF.Learning.Grid_SharedSizeGroups\WPF.Learning.Grid_SharedSizeGroups.csproj", "{D96532E1-83D6-4FD2-8153-A1582D5B3F31}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -15,6 +17,10 @@ Global
 		{83EF167E-77A7-4132-9CD6-5D62FD9A472A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{83EF167E-77A7-4132-9CD6-5D62FD9A472A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{83EF167E-77A7-4132-9CD6-5D62FD9A472A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D96532E1-83D6-4FD2-8153-A1582D5B3F31}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D96532E1-83D6-4FD2-8153-A1582D5B3F31}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D96532E1-83D6-4FD2-8153-A1582D5B3F31}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D96532E1-83D6-4FD2-8153-A1582D5B3F31}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
