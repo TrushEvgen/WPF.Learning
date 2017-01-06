@@ -5,8 +5,13 @@
         xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
         xmlns:local="clr-namespace:WPF.Learning.StackPanel"
         mc:Ignorable="d"
-        Title="MainWindow" Height="350" Width="525">
-    <Grid>
-        
-    </Grid>
+        Title="MainWindow" SizeToContent="WidthAndHeight">
+    <StackPanel Margin="8" >
+        <Label>Контактная информация</Label>
+        <Label>Логин:</Label>
+        <TextBox MaxWidth="250" MinWidth="150" HorizontalAlignment="Left"></TextBox>
+        <Label Margin="0,0,25,0">Пароль:</Label>
+        <TextBox x:Name="textBoxText" Margin="0,0,0,0" MaxWidth="350" MinWidth="150" HorizontalAlignment="Left"/>
+        <Button Margin="20" MaxWidth="220" HorizontalAlignment="Stretch" MinWidth="100" Content="Отправить"></Button>
+    </StackPanel>
 </Window>

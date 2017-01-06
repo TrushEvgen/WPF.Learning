@@ -23,6 +23,7 @@ namespace WPF.Learning.StackPanel
         public MainWindow()
         {
             InitializeComponent();
+            textBoxText.Text = "Текст на большое количество символов в codebehind";
         }
     }
 }
